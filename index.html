@@ -13,10 +13,10 @@
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white; 
 }
 
 .SQL {width: 90%; background-color: #10cf1a;} 
@@ -77,12 +77,33 @@
   transition: transform .1s; 
   width: 100px;
   height: 100px;
+  margin: 0 auto;
+  
 }
 
 .zoom:hover {
   transform: scale(1.2); 
 }
 
+div.gallery {
+  margin: 200px auto 0;
+  border: 2px solid #030303;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 </style>
 
 <script>
@@ -223,17 +244,21 @@ Hello! I'm Alberto, a developer and a machine learning enthusiast.
     allowed workers to visualize the pins placed by others using thier camera phones, 
     ensuring walkthrough integrity.
     
-    United Airlines selected our solution, naming us winners. 
-    
-    Hover over the adjacent image to spot a pinned item, 
-    signaling a service ticket for a red-tagged, unhealthy 
-    piece of equipment.
+    United Airlines selected our soluiton, naming our team winners!
 </pre>
 </div>
     </div>
   </div>
+<div class="top"></div>
   <div class="w3-half w3-teal w3-center" style="height:700px">
-        <img src="src/dev_dev.svg" alt="app" style="width:600px;height:700px;" class="zoom">
+    <div class="gallery">
+      <a target="_blank" href="src/dash.png">
+        <img src="src/dash.png" alt="dashboard" >
+      </a>
+      <div class="desc">Click me! Spot the red pin placed on top 
+        of the kiosk, marking this unhealthy and in need of service.
+      </div>
+    </div>
 </div>   
 </body>
 </html>
