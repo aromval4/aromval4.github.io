@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Alberto Romero</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+.container {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.SQL {width: 90%; background-color: #10cf1a;} 
+.PY {width: 90%; background-color: #2181cf;} 
+.js {width: 85%; background-color: #f44336;} 
+.TS {width: 75%; background-color: #808080;} 
+
+.resume {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.resume:hover {opacity: 1}
+
+.zoom3 {
+  background-color: rgb(153, 19, 36);
+  transition: transform .1s;
+  width: 625px;
+  height: 450px;
+  color: #ffffff;
+  font-style: roboto;
+  font-size: small;
+  margin: 0;
+  padding-bottom: -600px;
+}
+
+.zoom3:hover {
+  transform: scale(1.3);
+}
+
+.zoom2 {
+  padding: 80px;
+  background-color: rgb(17, 99, 194);
+  transition: transform .1s;
+  width: 675px;
+  height: 500px;
+  color: #ffffff;
+  font-style: roboto;
+  margin: 0;
+  padding-right: 150px;
+
+}
+
+.zoom2:hover {
+  transform: scale(1.3);
+}
+.zoom {
+  transition: transform .1s; 
+  width: 100px;
+  height: 100px;
+}
+
+.zoom:hover {
+  transform: scale(1.7); 
+}
+
+</style>
+
+<script>
+    // Function to download the resume
+    function downloadResume() {
+        // Replace "path/to/your/resume.pdf" with the actual path or URL to your resume file
+        const resumePath = "path/to/your/resume.pdf";
+        const link = document.createElement("a");
+        link.href = resumePath;
+        link.download = "YourResume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>
+
+</head>
+<body class="w3-content" style="max-width:1300px">
+
+
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Alberto Romero Valdez</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">(773) 571-7988</a>
+      <a class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Chicago,IL</a>
+      <a class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">On-site/Hybrid/Remote</a>
+      <a class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Willing to reocate!</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-black w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+<pre class="zoom2" >
+Hello! I'm Alberto, a developer and a machine learning enthusiast. 
+            
+       I thrive in challenging and creative envirnoments. 
+            
+        What I can do for you is offer a unique approach
+        to solving complex problems from my experience in 
+     the military, bike messenging, retail and farm labourer.
+
+    During my time in I.C. Stars and United Airlines, I found 
+     out I am just as good as working with my brain, as with 
+      my hands, merging a diverse set of skills. It would be 
+       my privilege to relieve any coding burden you or your 
+           company are currently facing with my skills.
+
+</pre>
+
+      </div>
+    </div>
+  </div>
+
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h1>My Skills</h1>
+    </div>
+    <p>SQL</p>
+    <div class="container">
+      <div class="skills SQL">80%</div>
+    </div>
+    
+    <p>Python</p>
+    <div class="container">
+      <div class="skills PY">80%</div>
+    </div>
+    
+    <p>JavaScript</p>
+    <div class="container">
+      <div class="skills js">75%</div>
+    </div>
+    
+    <p>Typescript</p>
+    <div class="container">
+      <div class="skills TS">70%</div>
+    </div>
+    </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center"> 
+      <h2>Technical Experiance</h2>
+      <div class="w3-container w3-responsive">
+        <table class="w3-table">
+          <tr>
+          </tr>
+          <tr class="w3-white">
+            <td>Jun.2023-Current</td>
+            <td>United Airlines</td>
+            <td>IT Project Manager</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Jan.2023-Apr.2023</td>
+            <td>I.C. Stars</td>
+            <td>Intern Developer</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Sept.2014-Sept.2018</td>
+            <td>U.S. Marine Corps</td>
+            <td>Rifleman/Cargo Rep</td>
+          </tr>
+          <tr class="w3-white">
+            <td>Feb.2021-Apr.2021</td>
+            <td>New Horizons Computer Training</td>
+            <td>CompTIA IT Courses</td>
+          </tr>
+          </tr>
+        </table>
+        <a href="src/aromval4_resume.pdf" download="aromval4_resume.pdf">
+<button class="resume" onclick="downloadResume()">Download My Resume</button></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row" id="contact">
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+        <h1>I.C. Stars Project</h1>
+<div>
+<pre class="zoom3">
+    During my I.C. Stars internship, sponsored by United Airlines, 
+    we tackled a project aiming to collect and streamline data on 
+    the airline's equipment. Using Angular as our platform, we formed 
+    teams to propose a innovative solution for United that we will 
+    work on for entire internship. I leveraged my technical background 
+    to guide the team and conceptualize the app.
+
+    Our solution involved United airport workers conducting equipment 
+    walkthroughs, guided by an embedded checklist in the app. Using their 
+    phone's camera, workers could snap pictures, and the app's computer vision 
+    recognized equipment, overlaying "pin-shaped" filters. Worker-assigned colors 
+    (green, yellow, red) indicated equipment health. The images, along with additional 
+    information, were sent to an analyst's dashboard, managing service tickets and 
+    groupings. The app, featuring augmented reality with Unity and Vulfora, 
+    allowed workers to visualize the pins placed by others using thier camera phones, 
+    ensuring walkthrough integrity.
+    
+    United Airlines selected our solution, naming us winners. 
+    
+    Hover over the adjacent image to spot a pinned item, 
+    signaling a service ticket for a red-tagged, unhealthy 
+    piece of equipment.
+</pre>
+</div>
+    </div>
+  </div>
+  <div class="w3-half w3-teal w3-center" style="height:700px">
+        <img src="src/dev_dev.svg" alt="app" style="width:600px;height:700px;" class="zoom">
+</div>   
+</body>
+</html>
